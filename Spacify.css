@@ -171,7 +171,7 @@ body {
     position: fixed;
     padding-left: 15px;
     top: 3%;
-    transform: scale(2);
+    transform: scale(3);
   }
   #hamb {
     display: block !important;
