@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spacify</title>
+    <link rel="stylesheet" href="Spacify.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c14680c7b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/diamond .png" alt="" />
+          <h4>Spacify</h4>
+        </div>
+        <div class="nav">
+          <ul id="ok" class="">
+            <!-- <li>
+              <i class="fa-solid fa-xmark" id="cross1" onclick="cross()"></i>
+            </li> -->
+            <i
+              class="fa-solid fa-xmark crosss"
+              id="cross1"
+              onclick="cross()"
+            ></i>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Portfolio</li>
+            <li>Contact Us</li>
+          </ul>
+          <i class="fa-solid fa-bars" id="hamb" onclick="sidenav()"></i>
+        </div>
+      </div>
+    </section>
+    <script>
+      const hamburger = document.getElementById("hamb");
+      const navbar = document.getElementById("ok");
+      console.log(navbar);
+      function sidenav() {
+        navbar.classList.add("active");
+      }
+      function cross() {
+        navbar.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
