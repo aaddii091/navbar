@@ -169,8 +169,8 @@ body {
   .crosss {
     display: block !important;
     position: fixed;
-    padding-left: 15px;
-    top: 3%;
+    padding-left: 10px;
+    top: 6%;
     transform: scale(3);
   }
   #hamb {
@@ -181,6 +181,5 @@ body {
   display: none;
 }
 #cross1 {
-  transform: scale(1.52);
   display: none;
 }
